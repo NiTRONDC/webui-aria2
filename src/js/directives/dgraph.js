@@ -3,7 +3,7 @@ import angular from "angular";
 // graph takes dspeed and uspeed, it queries them every second and draws
 // the last 180 secs, it also takes draw as an optional attribute and only
 // draws the graph when it is true, if not given then graph is always drawn
-export defaut angular
+export default angular
   .module("webui.directives.dgraph", ["webui.filters.bytes", "webui.services.deps"])
   .directive("dgraph", [
     "$",
